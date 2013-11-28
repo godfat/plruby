@@ -1,7 +1,8 @@
 
 # plruby
 
-sort of working... on my computer.
+Sort of working... on my computer.
+It's still in extremely early stage. Anything could happen.
 
 # Build
 
@@ -22,3 +23,9 @@ sort of working... on my computer.
 # Cleanup
 
     make clean
+
+# Special Thanks
+
+A lot of codes were copied from [plv8][].
+
+[plv8]: http://code.google.com/p/plv8js/

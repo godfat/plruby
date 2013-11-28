@@ -1,4 +1,6 @@
 
+// http://www.postgresql.org/docs/9.3/static/xfunc-c.html
+
 #include "postgres.h"
 #include "ruby.h"
 
