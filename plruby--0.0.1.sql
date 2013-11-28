@@ -10,7 +10,7 @@ CREATE FUNCTION plruby_inline_handler(internal) RETURNS void
 CREATE FUNCTION plruby_call_validator(oid) RETURNS void
   AS 'MODULE_PATHNAME' LANGUAGE C;
 
-CREATE TRUSTED LANGUAGE plruby
+CREATE LANGUAGE plruby
   HANDLER   plruby_call_handler
   INLINE    plruby_inline_handler
   VALIDATOR plruby_call_validator;
