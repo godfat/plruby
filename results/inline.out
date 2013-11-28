@@ -1,2 +1,0 @@
-DO $$ p('INLINE') $$ LANGUAGE plruby;
-NOTICE:   p('INLINE') 
